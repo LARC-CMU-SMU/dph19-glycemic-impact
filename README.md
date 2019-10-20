@@ -10,6 +10,6 @@ As a result, I want to release the [dic_20191020.pickle](data/Downloads.md) file
 It contains 1000 recipes instead of 55k recipes.
 
 
-## Please find the jupyter notebooks in RQ1 and RQ2
+## Jupyter notebooks
 ### RQ1: Research Question 1
 ### RQ2: Research Question 2 ---> train models and save the results to csv/ and pickle/
