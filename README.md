@@ -1,7 +1,6 @@
 ## Overview
 This is the githib repo for <br>
-[Lee, H., Achananuparp, P., Liu, Y., Lim, E. P., & Varshney, L. R. (2019). Estimating Glycemic Impact of Cooking Recipes via Online Crowdsourcing and Machine Learning. Short paper accepted at 9th International Digital Public Health Conference (DPH’ 19), ACM
-a link](https://arxiv.org/pdf/1909.07881.pdf)
+[Lee, H., Achananuparp, P., Liu, Y., Lim, E. P., & Varshney, L. R. (2019). Estimating Glycemic Impact of Cooking Recipes via Online Crowdsourcing and Machine Learning. Short paper accepted at 9th International Digital Public Health Conference (DPH’ 19), ACM](https://arxiv.org/pdf/1909.07881.pdf)
 
 
 ## Dataset
