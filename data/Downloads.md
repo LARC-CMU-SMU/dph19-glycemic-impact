@@ -1,7 +1,4 @@
 Please find the pretrained embeddings and dataset at [my googledrive](link).
 
-After downloading, please put the files under 
-
-I think you should use an
-`<dph19-glycemic-impact/data/>` element here instead.
+After downloading, please put the files under `dph19-glycemic-impact/data/` element here instead.
 
