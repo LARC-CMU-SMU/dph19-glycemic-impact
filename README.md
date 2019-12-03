@@ -24,3 +24,6 @@ We release the original code (RQ2_original) and a less messy version (RQ2_reprod
   * Best overall model: Pre-trained GloVe + Nutritional information + LGBM
   * Second best overall model: NB-BoW + Nutritional information + LR
   * Nutritional only model: Nutritional information + LR
+
+## Python Version
+We use python version 3.6.6 in this work
