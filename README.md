@@ -8,12 +8,18 @@ My slides and scripts presented in DPH'19 could be found at [here](https://drive
 ## Dataset
 We crawled the 55k recipes from http://allrecipes.com and had 1000 recipes labelled by the AMT workers.
 However, we were not allowed to release the 55k dataset (i.e. The dic_20190819.pickle I used in most of my notebooks)
-As a result, I released the [dic_20191203.pickle](data/Downloads.md) file instead, which should be enough for reproducing more of my experiments except training the embeddings.
+As a result, we released the [dic_20191203.pickle](data/Downloads.md) file instead, which should be enough for reproducing more of our experiments except training the embeddings.
 It contains 990 recipes instead of 55k recipes.
 
 ## Recipe54k-trained embeddings
 This work involves a lot of embeddings trained on Recipe54k. As a result, I share the [trained embeddings](data/Downloads.md)
 
 ## Jupyter notebooks
-### RQ1: Research Question 1
-### RQ2: Research Question 2 ---> train models and save the results to csv/ and pickle/
+### RQ1: Conduct data preprocessing and answer the Research Question 1
+### RQ2: Train a lot of models and save the results to csv/ and pickle/
+#### RQ2_original: how we prepare the results on paper, it is not well-structured and requires dic_20190819.pickle
+#### RQ2_reproducible: We selectively re-organized some of the notebooks and reproduce the best models in our study
+* Best non-nutritional model: NB-BoW + LR
+* Best overall model: Pre-trained GloVe + Nutritional information + LGBM
+* Second best overall model: NB-BoW + Nutritional information + LR
+* Nutritional only model: Nutritional information + LR
