@@ -5,6 +5,34 @@ Lee, H., Achananuparp, P., Liu, Y., Lim, E. P., & Varshney, L. R. (2019). Estima
 ## Slides 
 Our slides and scripts presented in DPH'19 could be found at [here](https://drive.google.com/open?id=1bln5W9KmlxFwrpA3KRlpU30n4yGTg44U)
 
+## Project Structure
+By default, the project assumes the following directory structure:
+
+project 
+└───data  
+│   │   dic_20191203.pickle: the textual description of recipe, AMT annotation, and nutritional properties
+│   │   Recipe54k-trained embeddings 
+│   │   combined.csv 
+└───RQ1
+│   │   how we conduct data preprocessing and crowdsourcing to answer the Research Question 1 
+└───RQ2
+│   │   Train a lot of models to answer the Research Question 2 and save the results to csv/ and pickle/ <br>
+│   │   We release the original code (RQ2_original) and a less messy version (RQ2_reproducible) to make it easier to reproduce the experiments.
+│   └───RQ2_original
+│   │   │   How we prepare the results on paper, it is not well-structured and requires dic_20190819.pickle
+│   └───RQ2_reproducible
+│   │   │   We selectively reproduce the best models in our study and re-organize the notebooks. It requires dic_20191203.pickle
+│   │   │   │   Best non-nutritional model: NB-BoW + LR
+│   │   │   │   Best overall model: Pre-trained GloVe + Nutritional information + LGBM
+│   │   │   │   Second best overall model: NB-BoW + Nutritional information + LR
+│   │   │   │   Nutritional only model: Nutritional information + LR
+└───csv
+└───pickle
+└───reports
+│   └───figures
+All CSV data files should be put in the data folder. All notebooks should be put in the notebooks folder. Any generated reports and figures will be put in the reports folder.
+
+
 ## Dataset
 We crawled the 55k recipes from http://allrecipes.com and had 1000 recipes labelled by the AMT workers.
 However, we were not allowed to release the 55k dataset (i.e. The dic_20190819.pickle we used in most of the notebooks)
