@@ -7,7 +7,7 @@ Our slides and scripts presented in DPH'19 could be found at [here](https://driv
 
 ## Dataset
 We crawled the 55k recipes from http://allrecipes.com and had 1000 recipes labelled by the AMT workers.
-However, we were not allowed to release the 55k dataset (i.e. The dic_20190819.pickle I used in most of my notebooks)
+However, we were not allowed to release the 55k dataset (i.e. The dic_20190819.pickle we used in most of the notebooks)
 As a result, we released the [dic_20191203.pickle](data/Downloads.md) file instead, which should be enough for reproducing more of our experiments except training the embeddings.
 It contains 990 recipes instead of 55k recipes.
 
