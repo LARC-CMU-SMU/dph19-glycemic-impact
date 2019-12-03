@@ -15,8 +15,8 @@ It contains 990 recipes instead of 55k recipes.
 This work involves a lot of embeddings trained on Recipe54k. As a result, I share the [trained embeddings](data/Downloads.md)
 
 ## Jupyter notebooks
-### RQ1: Conduct data preprocessing and answer the Research Question 1
-### RQ2: Train a lot of models to answer the Research Question 2 and save the results to csv/ and pickle/
+RQ1: Conduct data preprocessing and answer the Research Question 1
+RQ2: Train a lot of models to answer the Research Question 2 and save the results to csv/ and pickle/ <br>
 We release the original code (RQ2_original) and a less messy version (RQ2_reproducible) to make it easier to reproduce the experiments.
 * RQ2_original: How we prepare the results on paper, it is not well-structured and requires dic_20190819.pickle
 * RQ2_reproducible: We selectively reproduced the best models in our study and re-organized the notebooks. It requires dic_20191203.pickle
