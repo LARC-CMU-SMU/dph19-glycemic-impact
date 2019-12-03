@@ -8,25 +8,25 @@ Our slides and scripts presented in DPH'19 could be found at [here](https://driv
 ## Project Structure
 By default, the project assumes the following directory structure:
 
-project 
-└───data  
-│   │   dic_20191203.pickle: the textual description of recipe, AMT annotation, and nutritional properties
-│   │   Recipe54k-trained embeddings 
-│   │   combined.csv 
-└───RQ1
-│   │   how we conduct data preprocessing and crowdsourcing to answer the Research Question 1 
-└───RQ2
+project <br>
+└───data  <br>
+│   │   dic_20191203.pickle: the textual description of recipe, AMT annotation, and nutritional properties <br>
+│   │   Recipe54k-trained embeddings  <br>
+│   │   combined.csv  <br>
+└───RQ1 <br>
+│   │   how we conduct data preprocessing and crowdsourcing to answer the Research Question 1  <br>
+└───RQ2 <br>
 │   │   Train a lot of models to answer the Research Question 2 and save the results to csv/ and pickle/ <br>
-│   │   We release the original code (RQ2_original) and a less messy version (RQ2_reproducible) to make it easier to reproduce the experiments.
-│   └───RQ2_original
-│   │   │   How we prepare the results on paper, it is not well-structured and requires dic_20190819.pickle
-│   └───RQ2_reproducible
-│   │   │   We selectively reproduce the best models in our study and re-organize the notebooks. It requires dic_20191203.pickle
-│   │   │   │   Best non-nutritional model: NB-BoW + LR
-│   │   │   │   Best overall model: Pre-trained GloVe + Nutritional information + LGBM
-│   │   │   │   Second best overall model: NB-BoW + Nutritional information + LR
-│   │   │   │   Nutritional only model: Nutritional information + LR
-└───csv
+│   │   We release the original code (RQ2_original) and a less messy version (RQ2_reproducible) to make it easier to reproduce the experiments.  <br>
+│   └───RQ2_original  <br>
+│   │   │   How we prepare the results on paper, it is not well-structured and requires dic_20190819.pickle  <br>
+│   └───RQ2_reproducible  <br>
+│   │   │   We selectively reproduce the best models in our study and re-organize the notebooks. It requires dic_20191203.pickle  <br>
+│   │   │   │   Best non-nutritional model: NB-BoW + LR  <br>
+│   │   │   │   Best overall model: Pre-trained GloVe + Nutritional information + LGBM  <br>
+│   │   │   │   Second best overall model: NB-BoW + Nutritional information + LR  <br>
+│   │   │   │   Nutritional only model: Nutritional information + LR <br>
+└───csv  <br>
 └───pickle
 └───reports
 │   └───figures
