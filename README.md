@@ -8,12 +8,6 @@ Our slides and scripts presented in DPH'19 could be found at [here](https://driv
 ## Project Structure
 By default, the project assumes the following directory structure:
 
-
-
-
-
-
-
  
     ├── data                                    # Files that we save
     │   ├── dic_20191203.pickle                 # The textual description of recipe, AMT annotation, and nutritional properties
@@ -29,9 +23,9 @@ By default, the project assumes the following directory structure:
     │   │   └── ...
     │   └── RQ2_reproducible                    # We selectively reproduce the best models in our study and re-organize the notebooks. It requires dic_20191203.pickle
     │   │   └── Best models in RQ2.ipynb        # Best non-nutritional model: NB-BoW + LR
-    │   │                                       # Best overall model: Pre-trained GloVe + Nutritional information + LGBM
-    │   │                                       # Second best overall model: NB-BoW + Nutritional information + LR
-    │   │                                       # Nutrition-only model: Nutritional information + LR
+    │   │                                       # Best overall model:         Pre-trained GloVe + Nutritional information + LGBM
+    │   │                                       # Second best overall model:  NB-BoW + Nutritional information + LR
+    │   │                                       # Nutrition-only model:       Nutritional information + LR
     ├── pickle     
     ├── csv     
     └── ...
