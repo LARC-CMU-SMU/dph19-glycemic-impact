@@ -27,7 +27,10 @@ By default, the project assumes the following directory structure:
     ├── RQ2                                     # Models trained to answer the Research Question 2 and saved to csv/ and pickle/
     │   └── RQ2_original                        # How we prepare the results on paper, it is not well-structured and requires dic_20190819.pickle
     │   └── RQ2_reproducible                    # We selectively reproduce the best models in our study and re-organize the notebooks. It requires dic_20191203.pickle
-    │
+    │   │   └── Best models in RQ2.ipynb        # Best non-nutritional model: NB-BoW + LR
+    │   │                                       # Best overall model: Pre-trained GloVe + Nutritional information + LGBM
+    │   │                                       # Second best overall model: NB-BoW + Nutritional information + LR
+    │   │                                       # Second best overall model: NB-BoW + Nutritional information + LR
     ├── pickle     
     ├── csv     
     └── ...
@@ -40,17 +43,6 @@ It contains 990 recipes instead of 55k recipes.
 
 ## Recipe54k-trained embeddings
 This work involves a lot of embeddings trained on Recipe54k. As a result, we share the [trained embeddings](data/Downloads.md)
-
-## Jupyter notebooks
-RQ1: Conduct data preprocessing and answer the Research Question 1 <br>
-RQ2: Train a lot of models to answer the Research Question 2 and save the results to csv/ and pickle/ <br>
-We release the original code (RQ2_original) and a less messy version (RQ2_reproducible) to make it easier to reproduce the experiments.
-* RQ2_original: How we prepare the results on paper, it is not well-structured and requires dic_20190819.pickle
-* RQ2_reproducible: We selectively reproduce the best models in our study and re-organize the notebooks. It requires dic_20191203.pickle
-  * Best non-nutritional model: NB-BoW + LR
-  * Best overall model: Pre-trained GloVe + Nutritional information + LGBM
-  * Second best overall model: NB-BoW + Nutritional information + LR
-  * Nutritional only model: Nutritional information + LR
 
 ## Python Version
 We use python version 3.6.6 in this work
