@@ -10,7 +10,7 @@ By default, the project assumes the following directory structure:
 
 project <br>
 └───data  <br>
-| │ dic_20191203.pickle: the textual description of recipe, AMT annotation, and nutritional properties <br>
+|   │    dic_20191203.pickle: the textual description of recipe, AMT annotation, and nutritional properties <br>
  | │ Recipe54k-trained embeddings  <br>
  | │ combined.csv  <br>
 └───RQ1 <br>
