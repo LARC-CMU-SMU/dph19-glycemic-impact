@@ -30,7 +30,7 @@ By default, the project assumes the following directory structure:
     │   │   └── Best models in RQ2.ipynb        # Best non-nutritional model: NB-BoW + LR
     │   │                                       # Best overall model: Pre-trained GloVe + Nutritional information + LGBM
     │   │                                       # Second best overall model: NB-BoW + Nutritional information + LR
-    │   │                                       # Second best overall model: NB-BoW + Nutritional information + LR
+    │   │                                       # Nutrition-only model: Nutritional information + LR
     ├── pickle     
     ├── csv     
     └── ...
