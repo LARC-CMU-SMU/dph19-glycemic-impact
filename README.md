@@ -8,6 +8,23 @@ Our slides and scripts presented in DPH'19 could be found at [here](https://driv
 ## Project Structure
 By default, the project assumes the following directory structure:
 
+
+
+
+
+
+
+ 
+    ├── data                      # Test files (alternatively `spec` or `tests`)
+    │   ├── dic_20191203.pickle   # the textual description of recipe, AMT annotation, and nutritional properties
+    │   ├── integration           # End-to-end, integration tests (alternatively `e2e`)
+    │   └── unit                  # Unit tests
+    └── ...
+
+
+
+
+
 project <br>
 └───data  <br>
 |   │    dic_20191203.pickle: the textual description of recipe, AMT annotation, and nutritional properties <br>
