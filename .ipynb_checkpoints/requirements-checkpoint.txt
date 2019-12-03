@@ -1,0 +1,6 @@
+git+https://github.com/cpcloud/ipython-autotime
+pebble==4.3.10
+gensim==3.6.0
+lightgbm==2.2.2
+glove-python==0.1.0
+krippendorff==0.3.0
