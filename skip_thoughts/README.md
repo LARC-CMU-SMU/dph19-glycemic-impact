@@ -1,3 +1,5 @@
+We borrow the implementation of https://github.com/sanyam5/skip-thoughts to train the skip-thoughts vectors
+
 # skip-thoughts
 An implementation of Skip-Thought Vectors in PyTorch.
 
