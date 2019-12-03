@@ -24,7 +24,7 @@ By default, the project assumes the following directory structure:
     ├── RQ1                                     # How we conduct data preprocessing and crowdsourcing to answer the Research Question 1
     │   └── ... 
     │ 
-    ├── RQ2                                     # Train a lot of models to answer the Research Question 2 and save the results to csv/ and pickle/
+    ├── RQ2                                     # Models trained to answer the Research Question 2 and saved to csv/ and pickle/
     │   └── RQ2_original                        # How we prepare the results on paper, it is not well-structured and requires dic_20190819.pickle
     │   └── RQ2_reproducible                    # We selectively reproduce the best models in our study and re-organize the notebooks. It requires dic_20191203.pickle
     │
