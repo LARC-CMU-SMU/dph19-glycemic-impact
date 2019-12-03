@@ -19,7 +19,7 @@ RQ1: Conduct data preprocessing and answer the Research Question 1 <br>
 RQ2: Train a lot of models to answer the Research Question 2 and save the results to csv/ and pickle/ <br>
 We release the original code (RQ2_original) and a less messy version (RQ2_reproducible) to make it easier to reproduce the experiments.
 * RQ2_original: How we prepare the results on paper, it is not well-structured and requires dic_20190819.pickle
-* RQ2_reproducible: We selectively reproduced the best models in our study and re-organized the notebooks. It requires dic_20191203.pickle
+* RQ2_reproducible: We selectively reproduce the best models in our study and re-organize the notebooks. It requires dic_20191203.pickle
   * Best non-nutritional model: NB-BoW + LR
   * Best overall model: Pre-trained GloVe + Nutritional information + LGBM
   * Second best overall model: NB-BoW + Nutritional information + LR
