@@ -26,7 +26,7 @@ By default, the project assumes the following directory structure:
     │ 
     ├── RQ2                                     # Models trained to answer the Research Question 2 and saved to csv/ and pickle/
     │   └── RQ2_original                        # How we prepare the results on paper, it is not well-structured and requires dic_20190819.pickle
-    │   │  └── ...
+    │   │   └── ...
     │   └── RQ2_reproducible                    # We selectively reproduce the best models in our study and re-organize the notebooks. It requires dic_20191203.pickle
     │   │   └── Best models in RQ2.ipynb        # Best non-nutritional model: NB-BoW + LR
     │   │                                       # Best overall model: Pre-trained GloVe + Nutritional information + LGBM
