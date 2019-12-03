@@ -18,7 +18,7 @@ This work involves a lot of embeddings trained on Recipe54k. As a result, I shar
 ### RQ1: Conduct data preprocessing and answer the Research Question 1
 ### RQ2: Train a lot of models and save the results to csv/ and pickle/
 #### RQ2_original: how we prepare the results on paper, it is not well-structured and requires dic_20190819.pickle
-#### RQ2_reproducible: We selectively re-organized some of the notebooks and reproduce the best models in our study
+#### RQ2_reproducible: We selectively re-organized some of the notebooks and reproduced the best models in our study
 * Best non-nutritional model: NB-BoW + LR
 * Best overall model: Pre-trained GloVe + Nutritional information + LGBM
 * Second best overall model: NB-BoW + Nutritional information + LR
